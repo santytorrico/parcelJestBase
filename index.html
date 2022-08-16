@@ -1,14 +1,25 @@
 <html>
   <body>
-    <h1>Sumador</h1>
+
+    <h1>Sumador Y Multiplicador</h1>
     <form id="sumar-form">
       <label for="primer-numero">Primer número:</label>
       <input type="number" id="primer-numero" />
       <label for="segundo-numero">Segundo número:</label>
       <input type="number" id="segundo-numero" />
       <input type="submit" value="Sumar" />
+      
     </form>
     <div id="resultado-div"></div>
+
+    <form id="multiplicar-form">
+      <label for="first-number">Primer número:</label>
+      <input type="number" id="first-number" />
+      <label for="second-number">Segundo número:</label>
+      <input type="number" id="second-number" />
+      <input type="submit" value="Multiplicar" />
+    </form>
+    <div id="resultado-div2"></div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
